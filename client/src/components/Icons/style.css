@@ -1,0 +1,30 @@
+i {
+    margin: 0 auto;
+    font-size: 60px;
+    padding: 20px;
+}
+
+h3 {
+    color: #FF0000;
+    font-weight: 700;
+}
+
+/* .fab {
+    color: white;
+} */
+
+#icons {
+    padding: 30px;
+}
+
+.bg-light {
+    background: white;
+}
+
+.helpchild {
+    margin-bottom: 40px;
+}
+
+.lead {
+    font-weight: 500;
+}

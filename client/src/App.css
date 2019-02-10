@@ -1,0 +1,35 @@
+.App {
+  text-align: center;
+}
+
+.main-page {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.top-section {
+  display: flex;
+  flex: 4;
+  justify-content: center;
+  align-items: center;
+  background: rgb(236, 236, 236);
+}
+
+.bottom-section {
+  display: flex;
+  flex: 4;
+  justify-content: center;
+  align-items: center;
+  background: rgb(255, 255, 255);
+}
+
+.cprogress {
+  margin-top: 20px;
+}
+
+#currentcourse {
+  margin: 20px 0px 20px 0px;
+}
+

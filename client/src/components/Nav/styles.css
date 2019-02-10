@@ -1,0 +1,14 @@
+#navbuttons {
+    float: right;
+    justify-content: flex-end;
+    align-content: flex-end;
+}
+
+.btn-success {
+    width: 140px;
+}
+
+.navbar-brand {
+    font-weight: 700;
+    font-size: 25px;
+}
