@@ -10,30 +10,25 @@ import './App.css';
 
 class App extends Component {
 
-//   Auth = new AuthHelperMethods();
+  constructor(props) {
+    super(props);
+    this.state = {
+      counter: 0,
+      questionId: 1,
+      question: '',
+      answerOptions: [],
+      answer: '',
+      answersCount: {
+        nintendo: 0,
+        microsoft: 0,
+        sony: 0
+      },
+      result: ''
+    };
+  }
 
-//   /* Create a new instance of the 'AuthHelperMethods' compoenent*/
-//   state = {
-//     username: "",
-//     password: ""
-//   }
 
-// /* Here will want to add a method to log the user out upon clicking 'Logout' */
-//   _handleLogout = () => {
-    
-//     this.Auth.logout()
-//     this.props.history.replace('/login');
-//   }
-
-  //Render the protected component
   render() {
-    // let name = null;
-
-    // //This will be null until we set up authentication...
-    // if (this.props.confirm) {
-    //   name = this.props.confirm.username;
-    // }
-
     return (
       <div>
         <Nav />
