@@ -5,7 +5,7 @@ class Heading extends Component  {
     render() {
         return (
             <div>
-                <div id="myCarousel" className="carousel slide" data-ride="carousel" data-interval="4000" data-pause="false">
+                <div id="myCarousel" className="carousel slide" data-ride="carousel" data-interval="6000" data-pause="false">
                     <div className="carousel-inner">
                         <div className="carousel-item active">
                             <img className="d-block w-100" src="https://s3-eu-west-1.amazonaws.com/wbm.thumbnail/dissolve/1200/786088.jpg" alt="First slide" />
