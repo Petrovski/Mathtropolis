@@ -13,13 +13,17 @@ p {
     font-size: 20px;
 }
 
+#carousel-img {
+    height: 90vh;
+}
+
 #myCarousel {
     position: relative;
     overflow: hidden;
     width: 100%;
     margin: 0 auto;
     z-index: -1;
-    height: 60vh;
+    height: 70vh;
 }
 
 .carousel-inner {
