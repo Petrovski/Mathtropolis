@@ -1,89 +1,215 @@
 var quizQuestions = [
     {
-        question: "What franchise would you rather play a game from?",
+        question: "4 + 9 = 13, so 9 + 4 =",
         answers: [
             {
-                type: "Microsoft",
-                content: "Halo"
+                type: "A",
+                content: "14"
             },
             {
-                type: "Nintendo",
-                content: "Pokemon"
+                type: "B",
+                content: "13"
             },
             {
-                type: "Sony",
-                content: "Uncharted"
+                type: "C",
+                content: "17"
+            },
+            {
+                type: "D",
+                content: "12"
             }
         ]
     },
     {
-        question: "Which console would you prefer to play with friends?",
+        question: "4 + 9 = 13, so 9 + 4 =",
         answers: [
             {
-                type: "Microsoft",
-                content: "X-Box"
+                type: "A",
+                content: "14"
             },
             {
-                type: "Nintendo",
-                content: "Nintendo 64"
+                type: "B",
+                content: "13"
             },
             {
-                type: "Sony",
-                content: "Playstation 1"
+                type: "C",
+                content: "17"
+            },
+            {
+                type: "D",
+                content: "12"
             }
         ]
     },
     {
-        question: "Which of these racing franchises would you prefer to play a game from?",
+        question: "4 + 9 = 13, so 9 + 4 =",
         answers: [
             {
-                type: "Microsoft",
-                content: "Forza"
+                type: "A",
+                content: "14"
             },
             {
-                type: "Nintendo",
-                content: "Mario Kart"
+                type: "B",
+                content: "13"
             },
             {
-                type: "Sony",
-                content: "Gran Turismo"
+                type: "C",
+                content: "17"
+            },
+            {
+                type: "D",
+                content: "12"
             }
         ]
     },
     {
-        question: "Which of these games do you think is best?",
+        question: "4 + 9 = 13, so 9 + 4 =",
         answers: [
             {
-                type: "Microsoft",
-                content: "BioShock"
+                type: "A",
+                content: "14"
             },
             {
-                type: "Nintendo",
-                content: "The Legend of Zelda: Ocarina of Time"
+                type: "B",
+                content: "13"
             },
             {
-                type: "Sony",
-                content: "Final Fantasy VII"
+                type: "C",
+                content: "17"
+            },
+            {
+                type: "D",
+                content: "12"
             }
         ]
     },
     {
-        question: "What console would you prefer to own?",
+        question: "4 + 9 = 13, so 9 + 4 =",
         answers: [
             {
-                type: "Microsoft",
-                content: "X-Box One"
+                type: "A",
+                content: "14"
             },
             {
-                type: "Nintendo",
-                content: "Wii U"
+                type: "B",
+                content: "13"
             },
             {
-                type: "Sony",
-                content: "Playstation 4"
+                type: "C",
+                content: "17"
+            },
+            {
+                type: "D",
+                content: "12"
+            }
+        ]
+    },
+    {
+        question: "4 + 9 = 13, so 9 + 4 =",
+        answers: [
+            {
+                type: "A",
+                content: "14"
+            },
+            {
+                type: "B",
+                content: "13"
+            },
+            {
+                type: "C",
+                content: "17"
+            },
+            {
+                type: "D",
+                content: "12"
+            }
+        ]
+    },
+    {
+        question: "4 + 9 = 13, so 9 + 4 =",
+        answers: [
+            {
+                type: "A",
+                content: "14"
+            },
+            {
+                type: "B",
+                content: "13"
+            },
+            {
+                type: "C",
+                content: "17"
+            },
+            {
+                type: "D",
+                content: "12"
+            }
+        ]
+    },
+    {
+        question: "4 + 9 = 13, so 9 + 4 =",
+        answers: [
+            {
+                type: "A",
+                content: "14"
+            },
+            {
+                type: "B",
+                content: "13"
+            },
+            {
+                type: "C",
+                content: "17"
+            },
+            {
+                type: "D",
+                content: "12"
+            }
+        ]
+    },
+    {
+        question: "4 + 9 = 13, so 9 + 4 =",
+        answers: [
+            {
+                type: "A",
+                content: "14"
+            },
+            {
+                type: "B",
+                content: "13"
+            },
+            {
+                type: "C",
+                content: "17"
+            },
+            {
+                type: "D",
+                content: "12"
+            }
+        ]
+    },
+    {
+        question: "4 + 9 = 13, so 9 + 4 =",
+        answers: [
+            {
+                type: "A",
+                content: "14"
+            },
+            {
+                type: "B",
+                content: "13"
+            },
+            {
+                type: "C",
+                content: "17"
+            },
+            {
+                type: "D",
+                content: "12"
             }
         ]
     }
+
 ];
 
 export default quizQuestions;
