@@ -12,6 +12,9 @@ class Nav extends React.Component {
                 <div className="collapse navbar-collapse flex-grow-0" id="navbuttons">
                     <ul className="navbar-nav text-right">
                         <li className="nav-item active">
+                            <a href="/"><button className="btn btn-success ml-auto mr-2">Home</button></a>
+                        </li>
+                        <li className="nav-item active">
                             <a href="/register"><button className="btn btn-success ml-auto mr-2">Register</button></a>
                         </li>
                         <li className="nav-item active">

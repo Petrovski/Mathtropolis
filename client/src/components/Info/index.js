@@ -16,7 +16,7 @@ class Info extends Component {
                 </div>
                 <hr />
                 <div className="container helpchild d-flex justify-content-center">
-                    <h1>How can we help your child?</h1>
+                    <h1 className="child-help">How can we help your child?</h1>
                 </div>
 
             </div>

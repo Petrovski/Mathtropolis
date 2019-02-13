@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import Quiz from '../Quiz/index';
 import quizQuestions from '../../quizQuestions';
 import update from 'react-addons-update';
+import Nav from '../Nav/index';
 
 class QuizContainer extends Component {
 
@@ -14,9 +15,10 @@ class QuizContainer extends Component {
             answerOptions: [],
             answer: '',
             answersCount: {
-                nintendo: 0,
-                microsoft: 0,
-                sony: 0
+                A: 0,
+                B: 0,
+                C: 0,
+                D: 0
             },
             result: ''
         };
@@ -97,6 +99,7 @@ class QuizContainer extends Component {
     render() {
         return (
             <div className="quiz-wrapper">
+            <Nav />
                 <div className="App-header">
                     <h1 className="quiz-header">Math Assessment</h1>
                 </div>

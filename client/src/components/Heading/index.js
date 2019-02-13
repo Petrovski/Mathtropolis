@@ -14,7 +14,10 @@ class Heading extends Component  {
                             <img className="d-block w-100" src="http://media1.s-nbcnews.com/i/streams/2014/April/140428/2D274905725236-today-kid-homework-140428.jpg" alt="Second slide" />
                         </div>
                         <div className="carousel-item">
-                            <img className="d-block w-100" src="http://neatoday.org/wp-content/uploads/2015/04/effects_of_high_stakes_testing-e1429797999258.jpg" alt="Third slide" />
+                            <img className="d-block w-100" src="https://www.rd.com/wp-content/uploads/2018/08/00-Easy-Math-Tricks-1024x683.jpg" alt="Third slide" />
+                        </div>
+                        <div className="carousel-item">
+                            <img className="d-block w-100" src="http://neatoday.org/wp-content/uploads/2015/04/effects_of_high_stakes_testing-e1429797999258.jpg" alt="Fourth slide" />
                         </div>
                     </div>
                 </div>

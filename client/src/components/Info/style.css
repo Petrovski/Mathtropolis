@@ -9,9 +9,15 @@ body {
     font-family: Cabin;
 }
 
+.child-help {
+    font-size: 60px;
+    color: ivory;
+}
+
 .info {
     margin-right: 15%;
     margin-left: 15%;
+    padding-top: 40px;
 }
 
 #infotext {

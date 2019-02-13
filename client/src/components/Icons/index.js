@@ -10,7 +10,7 @@ class Icons extends React.Component {
                         <div className="col-md-4">
                             <div className="features-icons-item mx-auto mb-5 mb-lg-0 mb-lg-3">
                                 <div className="features-icons-icon d-flex">
-                                    <i className="fab fa-leanpub"></i>
+                                    <i className="fas fa-hands-helping faa-tada animated"></i>
                                 </div>
                                 <h3>Math Help</h3>
                                 <p className="lead mb-0">Catch up, learn for understanding, and get ahead in math</p>
@@ -29,7 +29,7 @@ class Icons extends React.Component {
                         <div className="col-md-4">
                             <div className="features-icons-item mx-auto mb-0 mb-lg-3">
                                 <div className="features-icons-icon d-flex">
-                                    <i className="fab fa-leanpub"></i>
+                                    <i className="fas fa-user-friends"></i>
                                 </div>
                                 <h3>User Friendly</h3>
                                 <p className="lead mb-0">Built with the user in mind to make navigation and cirriculum easy to see.</p>
