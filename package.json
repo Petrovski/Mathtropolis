@@ -1,8 +1,8 @@
 {
-  "name": "jwt-demo",
+  "name": "mathtropolis",
   "version": "0.0.0",
   "private": true,
-  "author": "Roman Chvalbo",
+  "author": "Alex Petroski",
   "scripts": {
     "server": "node app.js",
     "client": "cd client && npm start",
