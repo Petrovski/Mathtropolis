@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import ChartContainer from './ChartContainer/index'
 import AuthHelperMethods from './AuthHelperMethods';
 import withAuth from './withAuth';
 
@@ -60,6 +61,8 @@ class Dashboard extends Component {
                         <button className="btn btn-danger" onClick={this._handleLogout}>LOGOUT</button>
                     </div>
                 </div>
+
+                <ChartContainer />
             </div>
         );
     }
