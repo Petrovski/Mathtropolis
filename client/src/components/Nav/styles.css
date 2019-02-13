@@ -5,11 +5,23 @@
     margin-left: auto;
 }
 
+/* .navbar {
+    background-color: black!important;
+} */
+
 .btn-success {
+    font-size: 20px;
     width: 140px;
+    background-color: #4A92AB;
+    border: 1px solid #4A92AB;
+    text-align: center;
 }
 
 .navbar-brand {
     font-weight: 700;
+    font-size: 25px;
+}
+
+#nav-button-logos {
     font-size: 25px;
 }

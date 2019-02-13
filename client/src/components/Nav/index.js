@@ -5,7 +5,7 @@ class Nav extends React.Component {
     render() {
         return (
             <nav className="navbar navbar-expand-sm bg-dark navbar-dark">
-                <a href="/" className="navbar-brand">MATHSOMETHIN</a>
+                <a href="/" className="navbar-brand"><img src="https://i.imgur.com/PHnmzmo.png"></img></a>
                 <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent">
                     <span className="navbar-toggler-icon"></span>
                 </button>

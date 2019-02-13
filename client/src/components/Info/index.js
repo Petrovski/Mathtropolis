@@ -4,7 +4,7 @@ import './style.css'
 class Info extends Component {
     render() {
         return (
-            <div>
+            <div className="info-wrapper">
                 <div className="info d-flex justify-content-center">
                     <p id="infotext">
                         <span id="infoheading">Welcome to Mathsomething</span>--a math-only alternative learning geared to make your child truly grasp the basic concepts of math. 

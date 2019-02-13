@@ -5,7 +5,7 @@ i {
 }
 
 h3 {
-    color: #FF0000;
+    color: #4A92AB;
     font-weight: 700;
 }
 
@@ -18,11 +18,11 @@ h3 {
 }
 
 .bg-light {
-    background: white;
+    background: gold!important;
 }
 
 .helpchild {
-    margin-bottom: 40px;
+    padding-bottom: 40px;
 }
 
 .lead {

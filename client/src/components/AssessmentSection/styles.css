@@ -1,7 +1,7 @@
 .assessment-div {
     width: 100%;
     text-align: center;
-    background-color: red;
+    background-color: #4A92AB;
     color: white;
     height: 100px;
     margin: 0 auto;
@@ -10,5 +10,8 @@
 
 .assessment-h3 {
     color: white;
+}
 
+a {
+    color: gold;
 }

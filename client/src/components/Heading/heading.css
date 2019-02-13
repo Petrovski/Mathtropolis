@@ -19,11 +19,11 @@ p {
     width: 100%;
     margin: 0 auto;
     z-index: -1;
-    height: 70vh;
+    height: 60vh;
 }
 
-.d-block {
-    height: 100%;
+.carousel-inner {
+    height: 100%;;
 }
 
 .carouselContent {
