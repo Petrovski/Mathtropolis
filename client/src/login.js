@@ -60,7 +60,7 @@ class Login extends Component {
                 <div className="main-wrapper">
                     <div className="box">
                         <div className="box-header">
-                            <h1>Login</h1>
+                            <h1 className="login-h1">Login</h1>
                         </div>
                         <form className="box-form">
                             <input

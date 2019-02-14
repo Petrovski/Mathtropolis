@@ -1,4 +1,9 @@
-@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+
+.login-h1 {
+    font-size: 60px;
+}
 
 .main-wrapper {
     display: flex;
@@ -10,7 +15,7 @@
 }
 
 .box {
-    font-family: Raleway;
+    font-family: Roboto;
     display: flex;
     padding: 0px 40px;
     padding-top: 20px;
