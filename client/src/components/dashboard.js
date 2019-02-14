@@ -40,7 +40,7 @@ class Dashboard extends Component {
                         <button className="logout-btn btn btn-danger" onClick={this._handleLogout}>LOGOUT</button>
                     </div>
                     <div className="container">
-                    <h2 className="cprogress">Ciricuulum Progress</h2>
+                        <h2 className="cprogress">Curriculum Progress</h2>
                     <hr />
                     </div>
                     <div className="row">

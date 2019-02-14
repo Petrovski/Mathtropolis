@@ -31,6 +31,10 @@
   flex-direction: column;
 }
 
+.course-btn {
+  margin-left: 20px;
+}
+
 .course-buttons {
   margin: 10px;
 }
@@ -46,6 +50,20 @@
 
 .course-container {
   text-align: center;
+}
+
+.btn-info {
+  margin-bottom: 40px;
+}
+
+#dashboard-button {
+  display: flex;
+  justify-content: flex-end;
+  align-content: flex-end;
+}
+
+.courses-row {
+  width: 100%;
 }
 
 .top-section {

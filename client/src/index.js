@@ -7,6 +7,7 @@ import Login from './login';
 import Register from './signup';
 import Dashboard from "./components/dashboard";
 import Courses from './components/Courses/index'
+import Course1 from './components/Courses/course1'
 // import Welcome from "./components/welcome";
 import registerServiceWorker from './registerServiceWorker';
 import QuizContainer from './components/QuizContainer/index';
@@ -22,6 +23,7 @@ ReactDOM.render(
             <Route exact path="/login" component={Login} />
             <Route exact path="/register" component={Register} />
             <Route exact path="/courses" component={Courses} />
+            <Route exact path="/courses/1" component={Course1} />
         </div>
     </Router>,
     document.getElementById('root'));
