@@ -2,16 +2,31 @@ var express = require('express');
 var path = require('path');
 var cookieParser = require('cookie-parser');
 var bodyParser = require('body-parser');
-
 var bcrypt = require('bcryptjs');
 const jwt = require('jsonwebtoken');
 const exjwt = require('express-jwt');
-
 const PORT = process.env.PORT || 3001;
 var app = express();
 
 // Requiring our models for syncing
 var db = require("./models");
+
+//Static file declaration
+app.use(express.static(path.join(__dirname, 'client/build')));
+
+//production mode
+if (process.env.NODE_ENV === 'production') {
+  app.use(express.static(path.join(__dirname, 'client/build')));
+  //
+  app.get('*', (req, res) => {
+    res.sendfile(path.join(__dirname = 'client/build/index.html'));
+  })
+}
+//build mode
+app.get('*', (req, res) => {
+  res.sendFile(path.join(__dirname + '/client/public/index.html'));
+})
+
 
 /*========= Here we want to let the server know that we should expect and allow a header with the content-type of 'Authorization' ============*/
 app.use((req, res, next) => {
