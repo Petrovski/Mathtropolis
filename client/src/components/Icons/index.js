@@ -32,7 +32,7 @@ class Icons extends React.Component {
                                     <i className="fas fa-user-friends"></i>
                                 </div>
                                 <h3>User Friendly</h3>
-                                <p className="lead mb-0">Built with the user in mind to make navigation and cirriculum easy to see.</p>
+                                <p className="lead mb-0">Built with the user in mind to make navigation intuitive and easy to use.</p>
                             </div>
                         </div>
                     </div>

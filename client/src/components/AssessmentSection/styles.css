@@ -3,13 +3,14 @@
     text-align: center;
     background-color: #4A92AB;
     color: white;
-    height: 100px;
     margin: 0 auto;
     padding: 20px;
 }
 
 .assessment-h3 {
     color: white;
+    padding-top: 10px;
+    font-size: 40px;
 }
 
 a {

@@ -25,19 +25,40 @@ var quizQuestions = [
         answers: [
             {
                 type: "A",
-                content: "14"
+                content: "26"
             },
             {
                 type: "B",
-                content: "13"
+                content: "30"
             },
             {
                 type: "C",
-                content: "17"
+                content: "32"
             },
             {
                 type: "D",
-                content: "12"
+                content: "33"
+            }
+        ]
+    },
+    {
+        question: "Houses on the street where John lives are numbered from 1 to 24. How many times does the digit 2 appear in the numbering of those houses?",
+        answers: [
+            {
+                type: "A",
+                content: "2"
+            },
+            {
+                type: "B",
+                content: "4"
+            },
+            {
+                type: "C",
+                content: "8"
+            },
+            {
+                type: "D",
+                content: "16"
             }
         ]
     },
@@ -46,40 +67,19 @@ var quizQuestions = [
         answers: [
             {
                 type: "A",
-                content: "14"
+                content: "65"
             },
             {
                 type: "B",
-                content: "13"
+                content: "66"
             },
             {
                 type: "C",
-                content: "17"
+                content: "67"
             },
             {
                 type: "D",
-                content: "12"
-            }
-        ]
-    },
-    {
-        question: "Write (1 × 1000) + (7 × 100) + (0 × 10) + (9 × 1) as a four digit number.",
-        answers: [
-            {
-                type: "A",
-                content: "14"
-            },
-            {
-                type: "B",
-                content: "13"
-            },
-            {
-                type: "C",
-                content: "17"
-            },
-            {
-                type: "D",
-                content: "12"
+                content: "68"
             }
         ]
     },
@@ -88,112 +88,112 @@ var quizQuestions = [
         answers: [
             {
                 type: "A",
-                content: "14"
+                content: "About $20"
             },
             {
                 type: "B",
-                content: "13"
+                content: "About $25"
             },
             {
                 type: "C",
-                content: "17"
+                content: "About $35"
             },
             {
                 type: "D",
-                content: "12"
+                content: "About $40"
             }
         ]
     },
     {
-        question: "4 + 9 = 13, so 9 + 4 =",
+        question: "Express 13.75% as a fraction.",
         answers: [
             {
                 type: "A",
-                content: "14"
+                content: "11/800"
             },
             {
                 type: "B",
-                content: "13"
+                content: "11/80"
             },
             {
                 type: "C",
-                content: "17"
+                content: "13/80"
             },
             {
                 type: "D",
-                content: "12"
+                content: "347/2,000"
             }
         ]
     },
     {
-        question: "4 + 9 = 13, so 9 + 4 =",
+        question: "3 + (2 + 1) is also equal to:",
         answers: [
             {
                 type: "A",
-                content: "14"
+                content: "3 + 2 + 2"
             },
             {
                 type: "B",
-                content: "13"
+                content: "3 - (2 - 1)"
             },
             {
                 type: "C",
-                content: "17"
+                content: "(3 + 2) + 1"
             },
             {
                 type: "D",
-                content: "12"
+                content: "3 + 2"
             }
         ]
     },
     {
-        question: "4 + 9 = 13, so 9 + 4 =",
+        question: "What is the missing number? 6 + (__ + 3) = (6 + 7) + 3",
         answers: [
             {
                 type: "A",
-                content: "14"
+                content: "5"
             },
             {
                 type: "B",
-                content: "13"
+                content: "7"
             },
             {
                 type: "C",
-                content: "17"
+                content: "9"
             },
             {
                 type: "D",
-                content: "12"
+                content: "10"
             }
         ]
     },
     {
-        question: "4 + 9 = 13, so 9 + 4 =",
+        question: "In 2013, the population of New York City was 8.40 million, and the population of Los Angeles was 3.88 million. What was the percentage difference?",
         answers: [
             {
                 type: "A",
-                content: "14"
+                content: "6.14%"
             },
             {
                 type: "B",
-                content: "13"
+                content: "53.8%"
             },
             {
                 type: "C",
-                content: "17"
+                content: "63.2%"
             },
             {
                 type: "D",
-                content: "12"
+                content: "73.6%"
             }
         ]
     },
     {
-        question: "4 + 9 = 13, so 9 + 4 =",
+        question: "9 + (5 + 8) = 22, so (9 + 5) + 8 =",
         answers: [
             {
                 type: "A",
-                content: "14"
+                content: "22"
             },
             {
                 type: "B",
@@ -201,11 +201,11 @@ var quizQuestions = [
             },
             {
                 type: "C",
-                content: "17"
+                content: "23"
             },
             {
                 type: "D",
-                content: "12"
+                content: "24"
             }
         ]
     }

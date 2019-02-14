@@ -6,6 +6,10 @@
   margin: 0 auto;
 }
 
+h4 {
+  margin: 20px 0px 20px 0px;
+}
+
 .course-heading {
   font-size: 60px;
   padding-bottom: 20px;
@@ -24,6 +28,7 @@
 .logout-btn {
   margin-left: 40px;
   height: 45px;
+  width: 160px;
 }
 
 .buttons-container {
@@ -54,6 +59,14 @@
 
 .btn-info {
   margin-bottom: 40px;
+}
+
+.math-chart {
+  margin: 0 auto;
+}
+
+.example-container {
+  margin-top: 70px;
 }
 
 #dashboard-button {
