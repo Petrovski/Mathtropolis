@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import ChartContainer from './ChartContainer/index'
+import ChartContainer from './ChartContainer/index';
+import Nav from './Nav/index';
 import AuthHelperMethods from './AuthHelperMethods';
 import withAuth from './withAuth';
 
@@ -32,9 +33,13 @@ class Dashboard extends Component {
 
         return (
             <div className="App">
+                <Nav />
                 <div className="main-page">
                     <div className="top-section">
                         <h1>Welcome to your dashboard {name}</h1>
+
+                        <button className="btn btn-danger" onClick={this._handleLogout}>LOGOUT</button>
+
                     </div>
                     <div className="container">
                     <h1 className="cprogress">Ciricuulum Progress</h1>
@@ -55,10 +60,6 @@ class Dashboard extends Component {
 
                     <div className="bottom-section">
                         <button className="btn btn-success">Switch Course</button>
-                    </div>
-
-                    <div className="bottom-section">
-                        <button className="btn btn-danger" onClick={this._handleLogout}>LOGOUT</button>
                     </div>
                 </div>
 

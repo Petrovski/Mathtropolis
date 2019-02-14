@@ -1,8 +1,10 @@
 import React, { Component } from 'react';
 import Quiz from '../Quiz/index';
 import quizQuestions from '../../quizQuestions';
-import update from 'react-addons-update';
+import Result from '../Quiz/result';
 import Nav from '../Nav/index';
+import update from 'react-addons-update';
+import '../Quiz/styles.css';
 
 class QuizContainer extends Component {
 
@@ -92,8 +94,26 @@ class QuizContainer extends Component {
         if (result.length === 1) {
             this.setState({ result: result[0] });
         } else {
-            this.setState({ result: 'Undetermined' });
+            this.setState({ result: 'A' });
         }
+    }
+
+    renderQuiz() {
+        return (
+            <Quiz
+                answer={this.state.answer}
+                answerOptions={this.state.answerOptions}
+                questionId={this.state.questionId}
+                question={this.state.question}
+                questionTotal={quizQuestions.length}
+                onAnswerSelected={this.handleAnswerSelected}
+            />
+        );
+    }
+    renderResult() {
+        return (
+            <Result quizResult={this.state.result} />
+        );
     }
 
     render() {
@@ -102,15 +122,9 @@ class QuizContainer extends Component {
             <Nav />
                 <div className="App-header">
                     <h1 className="quiz-header">Math Assessment</h1>
+                    <hr id="quiz-hr" />
                 </div>
-                <Quiz
-                    answer={this.state.answer}
-                    answerOptions={this.state.answerOptions}
-                    questionId={this.state.questionId}
-                    question={this.state.question}
-                    questionTotal={quizQuestions.length}
-                    onAnswerSelected={this.handleAnswerSelected}
-                />
+                {this.state.result ? this.renderResult() : this.renderQuiz()}
             </div>
         );
     }

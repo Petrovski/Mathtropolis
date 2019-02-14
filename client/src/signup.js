@@ -12,6 +12,7 @@ export default class Signup extends Component {
     
     state = {
         username: "",
+        email: "",
         password: ""
     }
 
@@ -32,6 +33,7 @@ export default class Signup extends Component {
         
         axios.post("/signup", {
             username: this.state.username,
+            email: this.state.email,
             password: this.state.password
         })
             .then(data => {
@@ -62,6 +64,13 @@ export default class Signup extends Component {
                                 placeholder="Username"
                                 name="username"
                                 type="text"
+                                onChange={this._handleChange}
+                            />
+                            <input
+                                className="form-item"
+                                placeholder="Email"
+                                name="email"
+                                type="email"
                                 onChange={this._handleChange}
                             />
                             <input
