@@ -18,26 +18,24 @@ class ChartContainer extends Component {
         // Ajax calls here
         this.setState({
             chartData: {
-                labels: ['Boston', 'Worcester', 'Springfield', 'Lowell', 'Cambridge', 'New Bedford'],
+                labels: ['Course A', 'Course B', 'Course C', 'Course D', 'Course E'],
                 datasets: [
                     {
-                        label: 'Population',
+                        label: 'Completion Progress in %',
                         data: [
-                            617594,
-                            181045,
-                            153060,
-                            106519,
-                            105162,
-                            95072
+                            10,
+                            20,
+                            3,
+                            1,
+                            1
                         ],
                         backgroundColor: [
-                            'rgba(255, 99, 132, 0.6)',
+                            'rgba(200, 99, 132, 0.6)',
                             'rgba(54, 162, 235, 0.6)',
                             'rgba(255, 206, 86, 0.6)',
                             'rgba(75, 192, 192, 0.6)',
                             'rgba(153, 102, 255, 0.6)',
-                            'rgba(255, 159, 64, 0.6)',
-                            'rgba(255, 99, 132, 0.6)'
+                            'rgba(255, 159, 64, 0.6)'
                         ]
                     }
                 ]
@@ -48,10 +46,7 @@ class ChartContainer extends Component {
     render() {
         return (
             <div className="App">
-                <div className="App-header">
-                    <h2>Welcome to React</h2>
-                </div>
-                <Chart chartData={this.state.chartData} location="Massachusetts" legendPosition="bottom" />
+                <Chart chartData={this.state.chartData} legendPosition="top" />
             </div>
         );
     }

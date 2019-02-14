@@ -5,7 +5,8 @@ import './index.css';
 import App from './App';
 import Login from './login';
 import Register from './signup';
-import Dashboard from "./components/dashboard"
+import Dashboard from "./components/dashboard";
+import Courses from './components/Courses/index'
 // import Welcome from "./components/welcome";
 import registerServiceWorker from './registerServiceWorker';
 import QuizContainer from './components/QuizContainer/index';
@@ -20,6 +21,7 @@ ReactDOM.render(
             <Route exact path="/dashboard" component={Dashboard} />
             <Route exact path="/login" component={Login} />
             <Route exact path="/register" component={Register} />
+            <Route exact path="/courses" component={Courses} />
         </div>
     </Router>,
     document.getElementById('root'));

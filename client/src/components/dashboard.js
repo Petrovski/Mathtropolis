@@ -36,30 +36,21 @@ class Dashboard extends Component {
                 <Nav />
                 <div className="main-page">
                     <div className="top-section">
-                        <h1>Welcome to your dashboard {name}</h1>
-
-                        <button className="btn btn-danger" onClick={this._handleLogout}>LOGOUT</button>
-
+                        <h1 id="dashboard-heading">Welcome to your dashboard, {name}</h1>
+                        <button className="logout-btn btn btn-danger" onClick={this._handleLogout}>LOGOUT</button>
                     </div>
                     <div className="container">
-                    <h1 className="cprogress">Ciricuulum Progress</h1>
-                        <div className="container" id="currentcourse">
-                        <h3>You are currently on course *course number* within the grade *grade number* section</h3>
-                    </div>
+                    <h2 className="cprogress">Ciricuulum Progress</h2>
                     <hr />
-                    <div className="container">
-                        <p>Grade: A+</p>
-                        <p>Grade: A+</p>
-                        <p>Grade: A+</p>
                     </div>
-                    </div>
+                    <div className="row">
+                        <div className="bottom-section">
+                            <a href="/courses"><button className="course-btn btn btn-success">Select Course</button></a>
+                        </div>
 
-                    <div className="bottom-section">
-                        <button className="btn btn-success">Continue Course</button>
-                    </div>
-
-                    <div className="bottom-section">
-                        <button className="btn btn-success">Switch Course</button>
+                        <div className="bottom-section">
+                            <button className="course-btn btn btn-success">Continue Course</button>
+                        </div>
                     </div>
                 </div>
 
