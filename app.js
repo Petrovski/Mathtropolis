@@ -27,7 +27,6 @@ app.get('*', (req, res) => {
   res.sendFile(path.join(__dirname+'/client/public/index.html'));
 })
 
-
 /*========= Here we want to let the server know that we should expect and allow a header with the content-type of 'Authorization' ============*/
 app.use((req, res, next) => {
   res.setHeader('Access-Control-Allow-Headers', 'Content-type,Authorization');
