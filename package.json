@@ -7,8 +7,8 @@
     "client-install": "npm install --prefix client",
     "server": "node app.js",
     "client": "npm start --prefix client",
-    "dev": "concurrently \"nodemon app.js\" \"npm run client\"",
-    "start": "node app.js"
+    "dev": "node app.js",
+    "start": "concurrently \"nodemon app.js\" \"npm run client\""
   },
   "dependencies": {
     "bcryptjs": "^2.4.3",
