@@ -10,4 +10,4 @@ Username: **guest**
 Password: **guest123**
 
 
-This application was made using the MERN stack (MySQL in this case vs MongoDB, Express, React, Node.js). The assessment/quiz was also made in React and I implmented other technologies such as Bootstrap, Chart.js for the dashboard, and JSON Web Tokens for the login and authentication system. 
+This application was made using the MERN stack (MySQL in this case vs MongoDB, Express, React, Node.js). The assessment/quiz was also made in React and I implmented other technologies such as Bootstrap, Chart.js for the dashboard, and JSON Web Tokens for the login and authentication system. The layout and design of this application was geared towards children with its bright colors and fun, easy to read fonts.
