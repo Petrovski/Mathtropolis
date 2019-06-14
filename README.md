@@ -6,6 +6,8 @@
 
 To the demo the app in its entirety, I have provided a guest account to login with to see the dashboard and courses. Please also take the assessment to see the full app. You will then be prompted to login once matched with a course. Here is the guest account details:
 
+Link to the application: https://guarded-atoll-54312.herokuapp.com/
+
 Username: **guest**
 Password: **guest123**
 
