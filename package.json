@@ -16,7 +16,7 @@
     "chart.js": "^2.7.3",
     "concurrently": "^3.5.1",
     "cookie-parser": "~1.4.3",
-    "express": "~4.15.5",
+    "express": "~4.17.3",
     "express-jwt": "^5.3.1",
     "express-session": "^1.15.6",
     "jsonwebtoken": "^8.2.2",
