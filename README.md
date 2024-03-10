@@ -1,6 +1,6 @@
 # Mathtropolis
 
-**Mathtropolis** is an alternative learning application designed to help young students (K-6) grow their math skills using fun, interactive, and different methods compared to conventional teaching. Most of the time, math is a subject kids tend to struggle and not have fun in, and my goal here is to help your child with that process. Please take the assessment (link at at the bottom of the home page) to be placed in a category based on your answers.
+**Mathtropolis** is an alternative learning application designed to help young students (K-6) grow their math skills using fun, interactive, and different methods compared to conventional teaching. Most of the time, math is a subject kids tend to struggle and not have fun with, and my goal here is to help your child with that process. Please take the assessment (link at at the bottom of the home page) to be placed in a category based on your answers.
 
 # To demo the app:
 
